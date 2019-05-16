@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-react-hooks"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": {
+      "options": [
+        "single",
+        "jsx-double"
+      ]
+    },
+    "object-literal-sort-keys": false,
+    "react-hooks-nesting": "error",
+    "ordered-imports": false,
+    "member-access": false,
+    "no-shadowed-variable": true,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "jsx-wrap-multiline": false
+  }
+}
